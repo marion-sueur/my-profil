@@ -1,0 +1,138 @@
+/* colors and fonts*/
+
+body {
+background-color: #DBCEA5; 
+ font-family: Arial, sans-serif;
+}
+h1 {
+background-color: #547792;
+color: white;
+ font-size: 36px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+}
+h2,h3,h4 {
+  font-family: Barlow Condensed, serif;
+  letter-spacing: 1px;
+   font-size: 28px;
+}
+
+a {
+  color:#1A3263;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color:#547792;
+   transition: color 0.3s ease;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+	
+
+}
+.card-white {
+background-color: #ECE7D1;
+    text-decoration: none;
+    border-radius: 4px;
+    display:block;
+    text-align: center;        
+    margin: 20px 0;                
+    padding: 20px;           
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);         
+    text-align: center; 
+    transition: all 0.3S ease; 
+
+    .card-white:hover {
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15); /* L'ombre devient un peu plus forte */
+      transform: translateY(-2px); /* La carte se soulève très légèrement */
+                
+    
+}
+.img-circle {
+width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.9);
+    display: block;      
+    margin-left: auto;   
+    margin-right: auto;;
+}
+
+
+.btn-blue {
+    background-color: #547792; 
+    color: white;
+    padding: 15px 20px;
+    display: inline-block; 
+    text-decoration: none;    
+    border-radius: 4px;    
+    font-weight: bold;
+    margin-top: 20px;
+}
+.btn-blue:hover {
+	background-color:#4A6B83;
+	color: white;
+}
+#logo {
+
+}
+.list-inline {
+  list-style: inline;
+  padding: 10px;
+}
+.list-inline > li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+   font-size: 50px;
+   color: #547792;
+.list-inline i:hover {
+  font-size: 50px;
+  color: #547792;
+}
+}
+#introduction p {
+    background-color: #547792;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 4px;
+    text-decoration: none; /* Enlève le soulignement du lien */
+    display: inline-block; /* Permet d'appliquer du padding et des marges */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#introduction a:hover {
+    background-color: #4A6B83;
+    color: white;
+    margin-bottom: 30px; /* Espace sous le paragraphe avant le bouton */
+    line-height: 1.6;
+}
